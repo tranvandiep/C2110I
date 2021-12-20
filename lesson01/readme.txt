@@ -24,5 +24,14 @@ Nội dung kiến thức học:
 		- VN: https://gokisoft.com/hoc-html5-css3.htm
 		- Slide Aptech -> dùng thi lý thuyết
 	- Học cách tạo 1 website cơ bản:
-		
 - Deploy (phát hành) dự án -> đẩy lên git/github & public website
+	B1. Tạo tài khoản trên github: https://github.com/
+	B2. Cài đặt phầm mềm: https://git-scm.com/
+	B3. Đẩy code từ máy tính lên github
+		B3.1 -> TH: chưa đẩy code lên lần nào
+			git init
+			git add -A
+			git commit -m 'first commit'
+			git remote add origin https://github.com/tranvandiep/C2110I.git
+			git push origin master
+			
