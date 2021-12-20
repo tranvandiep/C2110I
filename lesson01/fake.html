@@ -1,0 +1,1910 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>GokiSoft - Khoá học lập trình HTML/CSS</title>
+<meta name="description" content="Khoá học lập trình HTML/CSS">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+
+<meta property="og:url" content="http://gokisoft.com/hoc-html5-css3.htm" />
+<meta property="article:author" content="http://gokisoft.com/hoc-html5-css3.htm" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Khoá học lập trình HTML/CSS" />
+<meta property="og:description" content="Khoá học lập trình HTML/CSS" />
+<meta property="og:image" content="https://gokisoft.com/uploads/stores/49/2021/10/khoa-hoc-lap-trinh-html-css-online-2.jpg" />
+<meta property="og:locale" content="vi_VN" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Khoá học lập trình HTML/CSS" />
+<meta name="twitter:image:src" content="https://gokisoft.com/uploads/stores/49/2021/10/khoa-hoc-lap-trinh-html-css-online-2.jpg" />
+<meta name="twitter:description" content="Khoá học lập trình HTML/CSS" />
+<meta name="google-site-verification" content="owoQMlqWmrnzN1_p5GvjIDrNvxyWE72ujK-WaN4wCUY" />
+<style>
+.justify-content-center h1 {
+font-size: 24px !important;
+color: rgb(255, 0, 0);
+margin-bottom: 10px;
+}
+</style>
+
+<link rel="icon" type="image/png" href="https://gokisoft.com/uploads/2021/03/s-568-ico-web.jpg" />
+
+<link rel="stylesheet" type="text/css" href="https://gokisoft.com/themes/gokisoft/vendor/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://gokisoft.com/themes/gokisoft/fonts/font-awesome-4.7.0/css/font-awesome.css">
+
+<link rel="stylesheet" type="text/css" href="https://gokisoft.com/themes/gokisoft/fonts/fontawesome-5.0.8/css/fontawesome-all.css">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://gokisoft.com/themes/gokisoft/css/util.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://gokisoft.com/themes/gokisoft/css/main.css?v=1">
+
+<style type="text/css">
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #description img {
+        width: 100% !important;
+        cursor: pointer;
+    }
+
+    .float{
+      position:fixed;
+      width:50px;
+      height:50px;
+      bottom:20px;
+      right:20px;
+      background-color:#0C9;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+      box-shadow: 2px 2px 3px #999;
+    }
+
+    .my-float{
+      margin-top:17px;
+    }
+</style>
+<style type="text/css">
+.user-image {
+    float: left;
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -2px
+}
+  /* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    /*min-width: 250px;*/ /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #979899; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes  fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes  fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+pre {
+    margin-top: 5px !important;
+}
+</style>
+<style type="text/css">
+      /* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar2 {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    /*min-width: 250px;*/ /* Set a default minimum width */
+    /*margin-left: -125px;  Divide value of min-width by 2 */
+    background-color: white; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1000000; /* Add a z-index if needed */
+    left: 10px; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+    border-radius: 20px;
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar2.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 5.5s;
+    animation: fadein 0.5s, fadeout 0.5s 5.5s;
+}
+  </style>
+<style type="text/css">
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999999999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media  screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+
+<div class="container-menu-desktop">
+<div class="topbar">
+<div class="content-topbar container h-100">
+<div class="left-topbar">
+<a href="https://gokisoft.com/admin/information" target="__blank"><img src="https://www.gravatar.com/avatar/fc6ba9324e017d540af3613b3a77dd21.jpg?s=80&amp;d=mm&amp;r=g" class="user-image" alt="User Image" /></a>
+<a href="https://gokisoft.com/editor" class="left-topbar-item" target="_blank">
+Ghi Chú
+</a>
+<a href="https://ziczacvn.com" class="left-topbar-item" target="_blank">
+Thiết Kế Web
+</a>
+<a href="https://gokisoft.com/cv/dieptran" class="left-topbar-item" style="color: yellow; font-weight: bold;" target="_blank">
+My CV
+</a>
+<a href="https://gokisoft.com/myclass" class="left-topbar-item">My Class</a>
+<a href="https://gokisoft.com/lien-he" class="left-topbar-item">
+Liên Hệ
+</a>
+<a href="https://gokisoft.com/members" class="left-topbar-item">
+Học Viên Tích Cực
+</a>
+<a href="https://gokisoft.com/ung-ho--tai-tro-de-gokisoft-co-the-ra-that-nhieu-khoa-hoc--chia-se-nhieu-kien-thuc-hon-nua-vi-cong-dong.html" class="left-topbar-item" style="color: #36f506; display: none;">
+Ủng Hộ
+</a>
+<a href="https://gokisoft.com/logout" class="left-topbar-item" onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+Thoát
+</a>
+<form id="logout-form" action="https://gokisoft.com/logout" method="POST" style="display: none;">
+<input type="hidden" name="_token" value="vXSPVg40YWeFKw8uw6SLNNA1g28iDwkHTq0dLnJV">
+<input type="submit" value="logout" style="display: none;">
+</form>
+</div>
+<div class="right-topbar" style="display: flex;">
+<form method="GET" action="https://www.google.com.vn/search" target="_blank" onsubmit="return searchGoogle();">
+<div>
+<input type="text" id="s_tmp" placeholder="Tìm kiếm" style="height: 33px;width: 200px;padding: 10px;border-radius: 15px;">
+<input type="text" name="q" id="q" style="display: none;">
+<button type="submit" class="flex-c-c size-a-1 ab-t-r fs-20 cl2 hov-cl10 trans-03">
+<i class="zmdi zmdi-search"></i>
+</button>
+</div>
+</form>
+<a href="https://www.youtube.com/channel/UCd8aIzwdaoQ_Abp3frmeZSA?sub_confirmation=1" target="_blank">
+<img src="https://gokisoft.com/uploads/stores/49/2021/11/icon-youtube.png" style="max-height: 35px">
+</a>
+</div>
+</div>
+</div>
+
+<div class="wrap-header-mobile">
+
+<div class="logo-mobile">
+<a href="https://gokisoft.com"><img src="https://gokisoft.com/uploads/2021/03/s-567-logo-web.jpg" alt="IMG-LOGO"></a>
+</div>
+
+<div class="btn-show-menu-mobile hamburger hamburger--squeeze m-r--8">
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+</div>
+</div>
+
+<div class="menu-mobile">
+<ul class="topbar-mobile">
+<li class="left-topbar">
+<a href="https://gokisoft.com" class="left-topbar-item">
+Học Lập Trình Từ A - Z (HTML/CSS/JS - Bootstrap/JQuery - AngularJS - PHP/Laravel - Java v.v)
+</a>
+</li>
+<li class="right-topbar">
+<a href="https://learning.gokisoft.com/admin" class="left-topbar-item">
+Đăng Nhập
+</a>
+<a href="#">
+<span class="fab fa-facebook-f"></span>
+</a>
+<a href="#">
+<span class="fab fa-twitter"></span>
+</a>
+<a href="#">
+<span class="fab fa-pinterest-p"></span>
+</a>
+<a href="#">
+<span class="fab fa-vimeo-v"></span>
+</a>
+<a href="#">
+<span class="fab fa-youtube"></span>
+</a>
+</li>
+</ul>
+<ul class="main-menu-m">
+<li>
+<a href="https://gokisoft.com">Trang Chủ</a>
+</li>
+<li>
+<a href="https://gokisoft.com/lap-trinh-c.htm">Lập Trình C</a>
+</li>
+<li>
+<a href="#frontend">Frontend</a>
+<ul class="sub-menu-m">
+<li><a href="https://gokisoft.com/hoc-html5-css3.htm">Học HTML5 - CSS3</a></li>
+<li><a href="https://gokisoft.com/hoc-bootstrap.htm">Học Bootstrap</a></li>
+<li><a href="https://gokisoft.com/hoc-js.htm">Học JS</a></li>
+<li><a href="https://gokisoft.com/hoc-jquery.htm">Học JQuery</a></li>
+<li><a href="https://gokisoft.com/angularjs.htm">AngularJS</a></li>
+</ul>
+<span class="arrow-main-menu-m">
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+</span>
+</li>
+<li>
+<a href="#backend">Backend</a>
+<ul class="sub-menu-m">
+<li><a href="https://gokisoft.com/hoc-php.htm">Học PHP</a></li>
+<li><a href="https://gokisoft.com/hoc-laravel.htm">Học Laravel</a></li>
+<li><a href="https://gokisoft.com/sql-server-mysql.htm">SQL Server/MySQL</a></li>
+</ul>
+<span class="arrow-main-menu-m">
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+</span>
+</li>
+<li>
+<a href="#java">Java</a>
+<ul class="sub-menu-m">
+<li><a href="https://gokisoft.com/java-basic.htm">Java Basic</a></li>
+<li><a href="https://gokisoft.com/java-advanced.htm">Java Advanced</a></li>
+<li><a href="https://gokisoft.com/java-web-ejb-ead.htm">Java Web + EJB (EAD)</a></li>
+<li><a href="https://gokisoft.com/java-web-webservice.htm">Java Web + WebService</a></li>
+<li><a href="https://gokisoft.com/java-web-ea.htm">Java Web + EA</a></li>
+<li><a href="https://gokisoft.com/web-component-development-servjsp.htm">Web Component Development (SERVJSP)</a></li>
+<li><a href="https://gokisoft.com/spring-mvc.htm">Spring MVC</a></li>
+</ul>
+<span class="arrow-main-menu-m">
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+</span>
+</li>
+<li>
+<a href="https://gokisoft.com/android.htm">Android</a>
+</li>
+<li>
+<a href="https://gokisoft.com/c-sharp.htm">C Sharp</a>
+</li>
+<li>
+<a href="#tools">Tools</a>
+<ul class="sub-menu-m">
+<li><a href="https://gokisoft.com/git-github.htm">Git/Github</a></li>
+</ul>
+<span class="arrow-main-menu-m">
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+</span>
+</li>
+<li>
+<a href="#khac">Khác</a>
+<ul class="sub-menu-m">
+<li><a href="https://gokisoft.com/tai-lieu-thu-thuat.htm">Tài Liệu & Thủ Thuật</a></li>
+<li><a href="https://gokisoft.com/chia-se-cntt.htm">Chia Sẻ CNTT</a></li>
+<li><a href="https://gokisoft.com/tuyen-dung.htm">Tuyển Dụng</a></li>
+</ul>
+<span class="arrow-main-menu-m">
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+</span>
+</li>
+</ul>
+</div>
+
+
+<div class="wrap-main-nav">
+<div class="main-nav">
+
+<nav class="menu-desktop">
+<a class="logo-stick" href="https://gokisoft.com">
+<img class="lazy" data-src="https://gokisoft.com/uploads/2021/03/s-567-logo-web.jpg" alt="LOGO">
+</a>
+<ul class="main-menu">
+<li>
+<a href="https://gokisoft.com">Trang Chủ</a>
+</li>
+<li class="main-menu">
+<a href="https://gokisoft.com/lap-trinh-c.htm">Lập Trình C</a>
+</li>
+<li>
+<a href="#frontend">Frontend</a>
+<ul class="sub-menu">
+<li><a href="https://gokisoft.com/hoc-html5-css3.htm">Học HTML5 - CSS3</a></li>
+<li><a href="https://gokisoft.com/hoc-bootstrap.htm">Học Bootstrap</a></li>
+<li><a href="https://gokisoft.com/hoc-js.htm">Học JS</a></li>
+<li><a href="https://gokisoft.com/hoc-jquery.htm">Học JQuery</a></li>
+<li><a href="https://gokisoft.com/angularjs.htm">AngularJS</a></li>
+</ul>
+</li>
+<li>
+<a href="#backend">Backend</a>
+<ul class="sub-menu">
+<li><a href="https://gokisoft.com/hoc-php.htm">Học PHP</a></li>
+<li><a href="https://gokisoft.com/hoc-laravel.htm">Học Laravel</a></li>
+<li><a href="https://gokisoft.com/sql-server-mysql.htm">SQL Server/MySQL</a></li>
+</ul>
+</li>
+<li>
+<a href="#java">Java</a>
+ <ul class="sub-menu">
+<li><a href="https://gokisoft.com/java-basic.htm">Java Basic</a></li>
+<li><a href="https://gokisoft.com/java-advanced.htm">Java Advanced</a></li>
+<li><a href="https://gokisoft.com/java-web-ejb-ead.htm">Java Web + EJB (EAD)</a></li>
+<li><a href="https://gokisoft.com/java-web-webservice.htm">Java Web + WebService</a></li>
+<li><a href="https://gokisoft.com/java-web-ea.htm">Java Web + EA</a></li>
+<li><a href="https://gokisoft.com/web-component-development-servjsp.htm">Web Component Development (SERVJSP)</a></li>
+<li><a href="https://gokisoft.com/spring-mvc.htm">Spring MVC</a></li>
+</ul>
+</li>
+<li class="main-menu">
+<a href="https://gokisoft.com/android.htm">Android</a>
+</li>
+<li class="main-menu">
+<a href="https://gokisoft.com/c-sharp.htm">C Sharp</a>
+</li>
+<li>
+<a href="#tools">Tools</a>
+<ul class="sub-menu">
+<li><a href="https://gokisoft.com/git-github.htm">Git/Github</a></li>
+</ul>
+</li>
+<li>
+<a href="#khac">Khác</a>
+<ul class="sub-menu">
+<li><a href="https://gokisoft.com/tai-lieu-thu-thuat.htm">Tài Liệu & Thủ Thuật</a></li>
+<li><a href="https://gokisoft.com/chia-se-cntt.htm">Chia Sẻ CNTT</a></li>
+<li><a href="https://gokisoft.com/tuyen-dung.htm">Tuyển Dụng</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<div class="container">
+<div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
+<div class="f2-s-1 p-r-30 m-tb-6">
+<a href="https://gokisoft.com" class="breadcrumb-item f1-s-3 cl9">
+Trang Chủ
+</a>
+<span class="breadcrumb-item f1-s-3 cl9">
+<a href="https://gokisoft.com/hoc-html5-css3.htm">Học HTML5 - CSS3</a>
+</span>
+<span class="breadcrumb-item f1-s-3 cl9">
+<a href="https://gokisoft.com/news/history?id=140" style="color: red">Xem Lại Quá Trình Học</a>
+</span>
+</div>
+</div>
+</div>
+<div class="container p-t-4 p-b-20">
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7242961778697092" data-ad-slot="3026237021"></ins>
+<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+<section class="bg0 p-b-55">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-10 col-lg-8 p-b-80">
+<div class="p-r-10 p-r-0-sr991">
+<div class="m-t--40 p-b-40">
+<table class="table table-bordered" style="margin-top: 40px;">
+<tr>
+<th colspan="2" style="background-color: #ffc107c7;">NỘI DUNG CHƯƠNG TRÌNH HỌC</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">Tài Liệu Môn Học</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/giao-trinh-mon-hoc-html5-css-javascript.html" title="Giáo trình môn học HTML5 - CSS - Javascript"><img src="https://gokisoft.com/uploads/stores/49/2021/10/giao-trinh-hoc-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/giao-trinh-mon-hoc-html5-css-javascript.html" title="Giáo trình môn học HTML5 - CSS - Javascript">
+<img src="https://gokisoft.com/uploads/stores/49/2021/10/bookmark.png" style="width: 30px" />Giáo trình môn học HTML5 - CSS - Javascript
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">Nhập Môn HTML</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/01-gioi-thieu-ve-lap-trinh-web-htmlcss.html" title="[Video]  Giới thiệu về lập trình web - HTML/CSS"><img src="uploads/2021/03/01-gioi-thieu-ve-lap-trinh-web-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/01-gioi-thieu-ve-lap-trinh-web-htmlcss.html" title="[Video]  Giới thiệu về lập trình web - HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Giới thiệu về lập trình web - HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bt01-huong-dan-tao-ra-1-trang-web-don-gian-nhat-htmlcss.html" title="[Video]  Hướng dẫn tạo ra 1 trang web đơn giản nhất - HTML/CSS"><img src="uploads/2021/03/bt01-huong-dan-tao-ra-1-trang-web-don-gian-nhat-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bt01-huong-dan-tao-ra-1-trang-web-don-gian-nhat-htmlcss.html" title="[Video]  Hướng dẫn tạo ra 1 trang web đơn giản nhất - HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Hướng dẫn tạo ra 1 trang web đơn giản nhất - HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/02-huong-dan-debugtestdevelop-tren-trinh-duyet-web--htmlcss.html" title="[Video] Hướng dẫn debug/test/develop trên trình duyệt web -HTML/CSS"><img src="uploads/2021/03/02-huong-dan-debugtestdevelop-tren-trinh-duyet-web-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/02-huong-dan-debugtestdevelop-tren-trinh-duyet-web--htmlcss.html" title="[Video] Hướng dẫn debug/test/develop trên trình duyệt web -HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Hướng dẫn debug/test/develop trên trình duyệt web -HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-tao-website-gioi-thieu-thong-tin-ca-nhan-profile-page-lap-trinh-htmlcssjs.html" title="Bài tập - Tạo website giới thiệu thông tin cá nhân - profile page - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-tao-website-gioi-thieu-thong-tin-ca-nhan-profile-page-lap-trinh-htmlcssjs.html" title="Bài tập - Tạo website giới thiệu thông tin cá nhân - profile page - Lập trình HTML/CSS/JS">
+Bài tập - Tạo website giới thiệu thông tin cá nhân - profile page - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">Tìm Hiểu Thẻ HTML5</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/03-formatting-text-using-tags-html-tags.html" title="[Video]  Formatting Text using Tags - html tags"><img src="uploads/2021/03/03-formatting-text-using-tags-html-tags.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/03-formatting-text-using-tags-html-tags.html" title="[Video]  Formatting Text using Tags - html tags">
+<label class="badge badge-success">VIDEO</label> Formatting Text using Tags - html tags
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/thiet-ke-trang-web-vincent-state-school-lap-trinh-html5--css--javascript.html" title="Thiết kế trang web Vincent State School - Lập trình html5 / css / javascript"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/thiet-ke-trang-web-vincent-state-school-lap-trinh-html5--css--javascript.html" title="Thiết kế trang web Vincent State School - Lập trình html5 / css / javascript">
+Thiết kế trang web Vincent State School - Lập trình html5 / css / javascript
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/04-creating-hyperlinks-and-anchors-html-tags.html" title="[Video] Creating Hyperlinks and Anchors (phần 1) - html tags"><img src="uploads/2021/03/04-creating-hyperlinks-and-anchors-phan-1-html-tags.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/04-creating-hyperlinks-and-anchors-html-tags.html" title="[Video] Creating Hyperlinks and Anchors (phần 1) - html tags">
+<label class="badge badge-success">VIDEO</label> Creating Hyperlinks and Anchors (phần 1) - html tags
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/05-creating-hyperlinks-and-anchors-phan-2-html-tags.html" title="[Video]  Creating Hyperlinks and Anchors (phần 2) - html tags"><img src="uploads/2021/03/05-creating-hyperlinks-and-anchors-phan-2-html-tags.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/05-creating-hyperlinks-and-anchors-phan-2-html-tags.html" title="[Video]  Creating Hyperlinks and Anchors (phần 2) - html tags">
+<label class="badge badge-success">VIDEO</label> Creating Hyperlinks and Anchors (phần 2) - html tags
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/09-cach-dung-the-img-va-map-de-hien-thi-hinh-anh-html-htmlcss.html" title="[Video] Cách dùng thẻ img và map để hiển thị hình ảnh html - HTML/CSS"><img src="uploads/2021/03/09-cach-dung-the-img-va-map-de-hien-thi-hinh-anh-html-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/09-cach-dung-the-img-va-map-de-hien-thi-hinh-anh-html-htmlcss.html" title="[Video] Cách dùng thẻ img và map để hiển thị hình ảnh html - HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Cách dùng thẻ img và map để hiển thị hình ảnh html - HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/16-htmlcssjs-tim-hieu-ve-path-trong-htmlcssjs.html" title="[Video] Tìm hiểu về đường dẫn file (path file) trong HTML/CSS"><img src="uploads/2021/03/16-htmlcssjs-tim-hieu-ve-path-trong-htmlcssjs.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/16-htmlcssjs-tim-hieu-ve-path-trong-htmlcssjs.html" title="[Video] Tìm hiểu về đường dẫn file (path file) trong HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Tìm hiểu về đường dẫn file (path file) trong HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/thiet-ke-website-quan-ly-showroom-galaxy-lap-trinh-html5cssjavascript.html" title="Thiết kế website quản lý showroom - galaxy - Lập trình HTML5/CSS/Javascript"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/thiet-ke-website-quan-ly-showroom-galaxy-lap-trinh-html5cssjavascript.html" title="Thiết kế website quản lý showroom - galaxy - Lập trình HTML5/CSS/Javascript">
+Thiết kế website quản lý showroom - galaxy - Lập trình HTML5/CSS/Javascript
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">CSS</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/17-lap-trinh-htmlcssjs.html" title="[Video] Tìm hiểu thuộc tính trong thẻ html"><img src="uploads/2021/03/17-lap-trinh-htmlcssjs.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/17-lap-trinh-htmlcssjs.html" title="[Video] Tìm hiểu thuộc tính trong thẻ html">
+<label class="badge badge-success">VIDEO</label> Tìm hiểu thuộc tính trong thẻ html
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/06-introduction-to-css3-phan-1-htmlcss.html" title="[Video] Giới thiệu CSS &amp; Sử dụng các thuộc tính cơ bản"><img src="uploads/2021/03/06-introduction-to-css3-phan-1-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/06-introduction-to-css3-phan-1-htmlcss.html" title="[Video] Giới thiệu CSS &amp; Sử dụng các thuộc tính cơ bản">
+<label class="badge badge-success">VIDEO</label> Giới thiệu CSS & Sử dụng các thuộc tính cơ bản
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/08-bai-hoc-formatting-using-style-sheets-htmlcss.html" title="[Video] Hướng dẫn tách biệt CSS và HTML"><img src="uploads/2021/03/08-bai-hoc-formatting-using-style-sheets-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/08-bai-hoc-formatting-using-style-sheets-htmlcss.html" title="[Video] Hướng dẫn tách biệt CSS và HTML">
+<label class="badge badge-success">VIDEO</label> Hướng dẫn tách biệt CSS và HTML
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/07-introduction-event-in-htmlcssjavascript-htmlcss.html" title="[Video]  Xử lý Event trong CSS (:hover, :active, :link, ...) - Lập trinh HTML/CSS"><img src="uploads/2021/03/07-introduction-event-in-htmlcssjavascript-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/07-introduction-event-in-htmlcssjavascript-htmlcss.html" title="[Video]  Xử lý Event trong CSS (:hover, :active, :link, ...) - Lập trinh HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Xử lý Event trong CSS (:hover, :active, :link, ...) - Lập trinh HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/tim-hieu-hien-thi-text-trong-html5-va-css-phan-basic.html" title="Tìm hiểu hiển thị TEXT trong HTML5 và CSS - Phần basic"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/tim-hieu-hien-thi-text-trong-html5-va-css-phan-basic.html" title="Tìm hiểu hiển thị TEXT trong HTML5 và CSS - Phần basic">
+Tìm hiểu hiển thị TEXT trong HTML5 và CSS - Phần basic
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/examination--test--on-tap-htmlcssjs-lap-trinh-html5cssjs.html" title="Examination &amp; Test + Ôn tập HTML/CSS/JS - Lập Trình HTML5/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/examination--test--on-tap-htmlcssjs-lap-trinh-html5cssjs.html" title="Examination &amp; Test + Ôn tập HTML/CSS/JS - Lập Trình HTML5/CSS/JS">
+Examination & Test + Ôn tập HTML/CSS/JS - Lập Trình HTML5/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/tim-hieu-hien-thi-text-trong-html5-va-css-phan-advanced.html" title="Tìm hiểu hiển thị TEXT trong HTML5 và CSS - Phần advanced"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/tim-hieu-hien-thi-text-trong-html5-va-css-phan-advanced.html" title="Tìm hiểu hiển thị TEXT trong HTML5 và CSS - Phần advanced">
+Tìm hiểu hiển thị TEXT trong HTML5 và CSS - Phần advanced
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">Table & CSS</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/18-tim-hieu-table-trong-htmlcss-htmlcss.html" title="[Video] Tìm hiểu table trong HTML/CSS - HTML/CSS"><img src="uploads/2021/03/18-tim-hieu-table-trong-htmlcss-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/18-tim-hieu-table-trong-htmlcss-htmlcss.html" title="[Video] Tìm hiểu table trong HTML/CSS - HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Tìm hiểu table trong HTML/CSS - HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-on-luyen-table-lap-trinh-htmlcssjs.html" title="Bài tập ôn luyện Table - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-on-luyen-table-lap-trinh-htmlcssjs.html" title="Bài tập ôn luyện Table - Lập trình HTML/CSS/JS">
+Bài tập ôn luyện Table - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/thiet-ke-calendar-page-bang-html5css-tao-website-calendar-html5css.html" title="Thiết kế calendar page bằng HTML5/CSS - Tạo website calendar HTML5/CSS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/thiet-ke-calendar-page-bang-html5css-tao-website-calendar-html5css.html" title="Thiết kế calendar page bằng HTML5/CSS - Tạo website calendar HTML5/CSS">
+Thiết kế calendar page bằng HTML5/CSS - Tạo website calendar HTML5/CSS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+ <a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">Form & CSS</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/20-thiet-ke-form-trong-htmlcssjs.html" title="[Video] Thiết kế form trong HTML/CSS/JS"><img src="uploads/2021/03/20-thiet-ke-form-trong-htmlcssjs.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/20-thiet-ke-form-trong-htmlcssjs.html" title="[Video] Thiết kế form trong HTML/CSS/JS">
+<label class="badge badge-success">VIDEO</label> Thiết kế form trong HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/19-tim-hieu-tag-videos-audio-trong-htmlcssjs.html" title="[Video] Tìm hiểu tag videos, audio trong HTML/CSS/JS"><img src="uploads/2021/03/19-tim-hieu-tag-videos-audio-trong-htmlcssjs.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/19-tim-hieu-tag-videos-audio-trong-htmlcssjs.html" title="[Video] Tìm hiểu tag videos, audio trong HTML/CSS/JS">
+<label class="badge badge-success">VIDEO</label> Tìm hiểu tag videos, audio trong HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-form-gui-email-lap-trinh-htmlcssjs.html" title="Bài tập - Thiết kế form gửi email - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-form-gui-email-lap-trinh-htmlcssjs.html" title="Bài tập - Thiết kế form gửi email - Lập trình HTML/CSS/JS">
+Bài tập - Thiết kế form gửi email - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/share-code-bai-tap-thiet-ke-form-gui-email-lap-trinh-htmlcssjs.html" title="[Video] Bài tập - Thiết kế form gửi email - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/coding-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/share-code-bai-tap-thiet-ke-form-gui-email-lap-trinh-htmlcssjs.html" title="[Video] Bài tập - Thiết kế form gửi email - Lập trình HTML/CSS/JS">
+<label class="badge badge-success">VIDEO</label> Bài tập - Thiết kế form gửi email - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+by GokiSoft.com
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/thiet-ke-form-dang-ky-tai-khoan-bang-html5css-thiet-ke-registation-form-html5css.html" title="Thiết kế Form đăng ký tài khoản bằng HTML5/CSS - Thiết kế registation form HTML5/CSS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/thiet-ke-form-dang-ky-tai-khoan-bang-html5css-thiet-ke-registation-form-html5css.html" title="Thiết kế Form đăng ký tài khoản bằng HTML5/CSS - Thiết kế registation form HTML5/CSS">
+Thiết kế Form đăng ký tài khoản bằng HTML5/CSS - Thiết kế registation form HTML5/CSS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">Thiết Kế Layout</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/21-hoc-lap-trinh-htmlcssjs-qua-vi-du-phan-2-htmlcss.html" title="[Video] Tìm hiểu Frame qua ví dụ quản lý khách sạn HTML/CSS"><img src="uploads/2021/03/21-hoc-lap-trinh-htmlcssjs-qua-vi-du-phan-2-htmlcss.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/21-hoc-lap-trinh-htmlcssjs-qua-vi-du-phan-2-htmlcss.html" title="[Video] Tìm hiểu Frame qua ví dụ quản lý khách sạn HTML/CSS">
+<label class="badge badge-success">VIDEO</label> Tìm hiểu Frame qua ví dụ quản lý khách sạn HTML/CSS
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/10-cach-dung-the-div-de-bo-cuc-trang-web-htmlcssjavascript.html" title="[Video] Hướng dẫn tạo layout bằng thẻ Div căn bản"><img src="uploads/2021/03/10-cach-dung-the-div-de-bo-cuc-trang-web-htmlcssjavascript.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/10-cach-dung-the-div-de-bo-cuc-trang-web-htmlcssjavascript.html" title="[Video] Hướng dẫn tạo layout bằng thẻ Div căn bản">
+<label class="badge badge-success">VIDEO</label> Hướng dẫn tạo layout bằng thẻ Div căn bản
+</a>
+<p style="color: #5b5c5c82;">
+by Trần Văn Điêp
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/video-huong-dan-thiet-ke-layout-bang-the-div-nang-cao-thiet-ke-giao-dien-web-gokisoft.html" title="[Video] Hướng dẫn thiết kế layout bằng thẻ div nâng cao (Thiết kế giao diện web gokisoft)"><img src="https://gokisoft.com/uploads/2021/03/10-cach-dung-the-div-de-bo-cuc-trang-web-htmlcssjavascript.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/video-huong-dan-thiet-ke-layout-bang-the-div-nang-cao-thiet-ke-giao-dien-web-gokisoft.html" title="[Video] Hướng dẫn thiết kế layout bằng thẻ div nâng cao (Thiết kế giao diện web gokisoft)">
+<label class="badge badge-success">VIDEO</label> Hướng dẫn thiết kế layout bằng thẻ div nâng cao (Thiết kế giao diện web gokisoft)
+</a>
+<p style="color: #5b5c5c82;">
+by GokiSoft.com
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-website-ban-dong-ho-lap-trinh-htmlcssjs.html" title="Bài tập - Thiết kế website bán đồng hồ - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-website-ban-dong-ho-lap-trinh-htmlcssjs.html" title="Bài tập - Thiết kế website bán đồng hồ - Lập trình HTML/CSS/JS">
+Bài tập - Thiết kế website bán đồng hồ - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-kiem-tra-60-phut-thiet-ke-blog-tin-tin-hoc-lap-trinh-htmlcssjs.html" title="Bài tập - kiểm tra 60 phút - thiết kế blog tin tin học - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-kiem-tra-60-phut-thiet-ke-blog-tin-tin-hoc-lap-trinh-htmlcssjs.html" title="Bài tập - kiểm tra 60 phút - thiết kế blog tin tin học - Lập trình HTML/CSS/JS">
+Bài tập - kiểm tra 60 phút - thiết kế blog tin tin học - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-blog-day-hoc-excel-online-lap-trinh-htmlcssjs.html" title="Bài Tập - Thiết Kế Blog Dạy Học Excel Online - Lập Trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-blog-day-hoc-excel-online-lap-trinh-htmlcssjs.html" title="Bài Tập - Thiết Kế Blog Dạy Học Excel Online - Lập Trình HTML/CSS/JS">
+Bài Tập - Thiết Kế Blog Dạy Học Excel Online - Lập Trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108G3">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108G3</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-kiem-tra-60-phut-thiet-ke-website-sau-lap-trinh-htmlcssjs.html" title="Bài tập - kiểm tra 60 phút - thiết kế website sau - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-kiem-tra-60-phut-thiet-ke-website-sau-lap-trinh-htmlcssjs.html" title="Bài tập - kiểm tra 60 phút - thiết kế website sau - Lập trình HTML/CSS/JS">
+Bài tập - kiểm tra 60 phút - thiết kế website sau - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-web-truyen-tranh-lap-trinh-htmlcssjs.html" title="Bài tập - Thiết kế web truyện tranh - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-tap-thiet-ke-web-truyen-tranh-lap-trinh-htmlcssjs.html" title="Bài tập - Thiết kế web truyện tranh - Lập trình HTML/CSS/JS">
+Bài tập - Thiết kế web truyện tranh - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/test-tao-website-gioi-thieu-cong-ty-lap-trinh-htmlcssjs.html" title="Tạo website giời thiệu công ty - Lập trình HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/bai-tap-javascript.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/test-tao-website-gioi-thieu-cong-ty-lap-trinh-htmlcssjs.html" title="Tạo website giời thiệu công ty - Lập trình HTML/CSS/JS">
+Tạo website giời thiệu công ty - Lập trình HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #ffc10761;">Luyện Thi Lý Thuyết</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs.html" title="Bài Thi Lý Thuyết HTML/CSS/JS"><img src="https://gokisoft.com/uploads/stores/49/2021/10/exam-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs.html" title="Bài Thi Lý Thuyết HTML/CSS/JS">
+Bài Thi Lý Thuyết HTML/CSS/JS
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs-2.html" title="Bài Thi Lý Thuyết HTML/CSS/JS - 2"><img src="https://gokisoft.com/uploads/stores/49/2021/10/exam-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs-2.html" title="Bài Thi Lý Thuyết HTML/CSS/JS - 2">
+Bài Thi Lý Thuyết HTML/CSS/JS - 2
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs-3.html" title="Bài Thi Lý Thuyết HTML/CSS/JS - 3"><img src="https://gokisoft.com/uploads/stores/49/2021/10/exam-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs-3.html" title="Bài Thi Lý Thuyết HTML/CSS/JS - 3">
+Bài Thi Lý Thuyết HTML/CSS/JS - 3
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+</p>
+</th>
+</tr>
+<tr>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs-4.html" title="Bài Thi Lý Thuyết HTML/CSS/JS - 4"><img src="https://gokisoft.com/uploads/stores/49/2021/10/exam-html5-css3.jpg" style="width: 320px;"></a>
+</th>
+<th>
+<a href="https://gokisoft.com/bai-thi-ly-thuyet-htmlcssjs-4.html" title="Bài Thi Lý Thuyết HTML/CSS/JS - 4">
+Bài Thi Lý Thuyết HTML/CSS/JS - 4
+</a>
+<p style="color: #5b5c5c82;">
+<span class="badge badge-danger" style="background-color: red; padding: 5px; color: white">PRIVATE</span>
+by GokiSoft.com
+|
+<a href="https://gokisoft.com/tag/C2108L">
+<span style="color: #5b5c5c82; padding-right: 15px">C2108L</span>
+</a>
+</p>
+</th>
+</tr>
+</table>
+</div>
+<div class="flex-wr-c-c m-rl--7 p-t-15">
+</div>
+<div class="m-t-30 p-b-10">
+<h3 style="font-weight: bold;">Lọc Theo Lớp Học</h3>
+<label style="float: left; padding-right: 20px;" onclick="filterGroup('')"><input type="radio" name="currentGroup" value="" style="float: left; margin-top: 5px; margin-right: 10px;"> Tất Cả</label>
+<label style="float: left; padding-right: 20px;" onclick="filterGroup('C2110I')"><input type="radio" name="currentGroup" value="C2110I" checked style="float: left; margin-top: 5px; margin-right: 10px;"> C2110I</label>
+<label style="float: left; padding-right: 20px;" onclick="filterGroup('C2108L')"><input type="radio" name="currentGroup" value="C2108L" style="float: left; margin-top: 5px; margin-right: 10px;"> C2108L</label>
+<label style="float: left; padding-right: 20px;" onclick="filterGroup('C2110L')"><input type="radio" name="currentGroup" value="C2110L" style="float: left; margin-top: 5px; margin-right: 10px;"> C2110L</label>
+<label style="float: left; padding-right: 20px;" onclick="filterGroup('C2108G3')"><input type="radio" name="currentGroup" value="C2108G3" style="float: left; margin-top: 5px; margin-right: 10px;"> C2108G3</label>
+</div>
+</div>
+</div>
+<div class="col-md-10 col-lg-4 p-b-80">
+<div class="p-l-10 p-rl-0-sr991">
+<div class="p-b-23">
+<div class="how2 how2-cl4 flex-s-c m-b-15">
+<h3 class="f1-m-2 cl3 tab01-title">
+Tài Liệu Tham Khảo
+</h3>
+</div>
+<ul class="p-t-15">
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+1
+</div>
+<a href="https://gokisoft.com/khoa-hoc-lap-trinh-htmlcss.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Khoá học lập trình HTML/CSS">Khoá học lập trình HTML/CSS</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+2
+</div>
+<a href="https://gokisoft.com/gioi-thieu-ve-html5.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Giới thiệu về HTML5">Giới thiệu về HTML5</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+3
+</div>
+<a href="https://gokisoft.com/trinh-bien-tap-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Trình biên tập HTML">Trình biên tập HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+4
+</div>
+<a href="https://gokisoft.com/nhung-thuoc-tinh-co-ban-cua-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Những thuộc tính cơ bản của HTML">Những thuộc tính cơ bản của HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+5
+</div>
+<a href="https://gokisoft.com/cac-phan-tu-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Các phần tử trong HTML">Các phần tử trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+6
+</div>
+<a href="https://gokisoft.com/cac-thuoc-tinh-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Các thuộc tính trong HTML">Các thuộc tính trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+7
+</div>
+<a href="https://gokisoft.com/the-tieu-de-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Thẻ tiêu đề trong HTML">Thẻ tiêu đề trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+8
+</div>
+<a href="https://gokisoft.com/html-paragraphs-cac-doan-van-ban-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Paragraphs - Các đoạn văn bản HTML">HTML Paragraphs - Các đoạn văn bản HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+9
+</div>
+<a href="https://gokisoft.com/html-styles-cac-phong-cach-cua-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Styles - Các phong cách của HTML">HTML Styles - Các phong cách của HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+10
+</div>
+<a href="https://gokisoft.com/html-text-formatting-dinh-dang-van-ban-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Text Formatting - Định dạng văn bản trong HTML">HTML Text Formatting - Định dạng văn bản trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+11
+</div>
+<a href="https://gokisoft.com/html-quotation-and-citation-elements-trich-dan-va-cac-thanh-phan-trich-dan-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Quotation and Citation Elements - Trích dẫn và các thành phần trích dẫn trong HTML">HTML Quotation and Citation Elements - Trích dẫn và các thành phần trích dẫn trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+12
+</div>
+<a href="https://gokisoft.com/html-comments-cac-chu-thich-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Comments - Các chú thích trong HTML">HTML Comments - Các chú thích trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+13
+</div>
+<a href="https://gokisoft.com/html-colors-mau-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Colors - Màu trong HTML">HTML Colors - Màu trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+14
+</div>
+<a href="https://gokisoft.com/html-rgb-and-rgba-colors-cac-mau-rgb-va-rgba-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML RGB and RGBA Colors - Các màu RGB và RGBA trong HTML">HTML RGB and RGBA Colors - Các màu RGB và RGBA trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+15
+</div>
+<a href="https://gokisoft.com/html-hex-colors-cac-mau-hex-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML HEX Colors - Các màu HEX trong HTML">HTML HEX Colors - Các màu HEX trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+16
+</div>
+<a href="https://gokisoft.com/html-hsl-and-hsla-colors-cac-mau-hsl-va-hsla-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML HSL and HSLA Colors -  Các màu HSL và HSLA trong HTML">HTML HSL and HSLA Colors - Các màu HSL và HSLA trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+17
+</div>
+<a href="https://gokisoft.com/html-styles-cac-phong-cach-trong-html-css.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Styles - Các phong cách trong HTML - CSS">HTML Styles - Các phong cách trong HTML - CSS</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+18
+</div>
+<a href="https://gokisoft.com/html-links-cac-lien-ket-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Links -  Các liên kết trong HTML">HTML Links - Các liên kết trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+19
+</div>
+<a href="https://gokisoft.com/html-links-different-colors--cac-lien-ket-trong-html-mau-sac-khac-nhau.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Links - Different Colors | Các liên kết trong HTML - Màu sắc khác nhau">HTML Links - Different Colors | Các liên kết trong HTML - Màu sắc khác nhau</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+20
+</div>
+<a href="https://gokisoft.com/html-links-create-bookmarks--cac-lien-ket-trong-html-tao-cac-dau-trang.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Links - Create Bookmarks | Các liên kết trong HTML - Tạo các dấu trang">HTML Links - Create Bookmarks | Các liên kết trong HTML - Tạo các dấu trang</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+21
+</div>
+<a href="https://gokisoft.com/html-images-hinh-anh-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Images - Hình ảnh trong HTML">HTML Images - Hình ảnh trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+22
+</div>
+<a href="https://gokisoft.com/html-image-maps-ban-do-hinh-anh-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Image Maps - Bản đồ hình ảnh trong HTML">HTML Image Maps - Bản đồ hình ảnh trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+23
+</div>
+<a href="https://gokisoft.com/html-background-images-hinh-nen-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Background Images - Hình nền trong HTML">HTML Background Images - Hình nền trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+24
+</div>
+<a href="https://gokisoft.com/html-picture-element-cac-thanh-phan-hinh-anh-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Picture Element - Các thành phần hình ảnh trong HTML">HTML Picture Element - Các thành phần hình ảnh trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+25
+</div>
+<a href="https://gokisoft.com/html-tables-bang-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Tables - Bảng trong HTML">HTML Tables - Bảng trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+26
+</div>
+<a href="https://gokisoft.com/html-lists-cac-loai-danh-sach-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Lists - Các loại danh sách trong HTML">HTML Lists - Các loại danh sách trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+27
+</div>
+<a href="https://gokisoft.com/html-unordered-lists-danh-sach-khong-theo-thu-tu-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Unordered Lists - Danh sách không theo thứ tự trong HTML">HTML Unordered Lists - Danh sách không theo thứ tự trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+28
+</div>
+<a href="https://gokisoft.com/html-ordered-lists-danh-sach-co-thu-tu-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Ordered Lists - Danh sách có thứ tự trong HTML">HTML Ordered Lists - Danh sách có thứ tự trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+29
+</div>
+<a href="https://gokisoft.com/html-other-lists-cac-loai-danh-sach-khac-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Other Lists - Các loại danh sách khác trong HTML">HTML Other Lists - Các loại danh sách khác trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+30
+</div>
+<a href="https://gokisoft.com/html-block-and-inline-elements-cac-thanh-phan-khoi-va-trong-hang-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Block and Inline Elements - Các thành phần khối và trong hàng HTML">HTML Block and Inline Elements - Các thành phần khối và trong hàng HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+31
+</div>
+<a href="https://gokisoft.com/html-the-class-attribute-thuoc-tinh-class-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML The class Attribute - Thuộc tính Class trong HTML">HTML The class Attribute - Thuộc tính Class trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+32
+</div>
+<a href="https://gokisoft.com/html-the-id-attribute-thuoc-tinh-id-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML The id Attribute -  Thuộc tính id trong HTML">HTML The id Attribute - Thuộc tính id trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+33
+</div>
+<a href="https://gokisoft.com/html-iframes.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Iframes">HTML Iframes</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+34
+</div>
+<a href="https://gokisoft.com/html-javascript.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML JavaScript">HTML JavaScript</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+35
+</div>
+<a href="https://gokisoft.com/html-file-paths-duong-dan-tep-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML File Paths - Đường dẫn tệp HTML">HTML File Paths - Đường dẫn tệp HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+36
+</div>
+<a href="https://gokisoft.com/html-the-head-element--thanh-phan-head-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML - The Head Element | Thành phần Head trong HTML">HTML - The Head Element | Thành phần Head trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+37
+</div>
+<a href="https://gokisoft.com/html-layout-elements-and-techniques-cac-thanh-phan-bo-cuc-va-ki-thuat-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Layout Elements and Techniques - Các thành phần bố cục và kĩ thuật trong HTML">HTML Layout Elements and Techniques - Các thành phần bố cục và kĩ thuật trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+38
+</div>
+<a href="https://gokisoft.com/html-responsive-web-design-thiet-ke-web-phan-hoi-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Responsive Web Design - Thiết kế web phản hồi trong HTML">HTML Responsive Web Design - Thiết kế web phản hồi trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+39
+</div>
+<a href="https://gokisoft.com/html-computer-code-elements-cac-thanh-phan-thuoc-ma-may-tinh-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Computer Code Elements - Các thành phần thuộc mã máy tính trong HTML">HTML Computer Code Elements - Các thành phần thuộc mã máy tính trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+40
+</div>
+<a href="https://gokisoft.com/html-semantic-elements-cac-thanh-phan-co-ngu-nghia-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Semantic Elements - Các thành phần có ngữ nghĩa trong HTML">HTML Semantic Elements - Các thành phần có ngữ nghĩa trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+41
+</div>
+<a href="https://gokisoft.com/html-style-guide-and-coding-conventions-huong-dan-ve-phong-cach-va-quy-uoc-code-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Style Guide and Coding Conventions - Hướng dẫn về phong cách và quy ước code trong HTML">HTML Style Guide and Coding Conventions - Hướng dẫn về phong cách và quy ước code trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+42
+</div>
+<a href="https://gokisoft.com/html-entities-cac-thuc-the-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Entities - Các thực thể trong HTML">HTML Entities - Các thực thể trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+43
+</div>
+<a href="https://gokisoft.com/html-symbols-cac-bieu-tuong-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Symbols - Các biểu tượng trong HTML">HTML Symbols - Các biểu tượng trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+44
+</div>
+<a href="https://gokisoft.com/using-emojis-in-html-su-dung-bieu-tuong-cam-xuc-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Using Emojis in HTML - Sử dụng biểu tượng cảm xúc trong HTML">Using Emojis in HTML - Sử dụng biểu tượng cảm xúc trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+45
+</div>
+<a href="https://gokisoft.com/html-encoding-character-sets-ma-hoa-html-cac-bo-ky-tu.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Encoding (Character Sets) - Mã hóa HTML (Các bộ ký tự)">HTML Encoding (Character Sets) - Mã hóa HTML (Các bộ ký tự)</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+46
+</div>
+<a href="https://gokisoft.com/html-uniform-resource-locators-bo-dinh-vi-tai-nguyen-dong-nhat-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Uniform Resource Locators - Bộ định vị tài nguyên đồng nhất trong HTML">HTML Uniform Resource Locators - Bộ định vị tài nguyên đồng nhất trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+47
+</div>
+<a href="https://gokisoft.com/html-versus-xhtml-html-dau-voi-xhtml.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Versus XHTML - HTML đấu với XHTML">HTML Versus XHTML - HTML đấu với XHTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+48
+</div>
+<a href="https://gokisoft.com/html-forms-cac-bieu-mau-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Forms -  Các biểu mẫu trong HTML">HTML Forms - Các biểu mẫu trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+49
+</div>
+<a href="https://gokisoft.com/html-form-elements-cac-thanh-phan-bieu-mau-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Form Elements -  Các thành phần biểu mẫu trong HTML">HTML Form Elements - Các thành phần biểu mẫu trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+50
+</div>
+<a href="https://gokisoft.com/html-input-types-cac-kieu-dau-vao-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Input Types - Các kiểu input trong HTML">HTML Input Types - Các kiểu input trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+51
+</div>
+<a href="https://gokisoft.com/html-input-attributes-cac-thuoc-tinh-cua-dau-vao-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Input Attributes - Các thuộc tính input trong HTML">HTML Input Attributes - Các thuộc tính input trong HTML</a>
+</li>
+<li class="flex-wr-sb-s p-b-22">
+<div class="size-a-8 flex-c-c borad-3 size-a-8 bg9 f1-m-4 cl0 m-b-6">
+52
+</div>
+<a href="https://gokisoft.com/html-input-form-attributes-cac-thuoc-tinh-form-cua-thanh-phan-input-trong-html.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="HTML Input form* Attributes - Các thuộc tính form của thành phần input trong HTML">HTML Input form* Attributes - Các thuộc tính form của thành phần input trong HTML</a>
+</li>
+</ul>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7242961778697092" data-ad-slot="3026237021"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<div class="p-b-23">
+<div class="how2 how2-cl4 flex-s-c" style="margin-bottom: 20px;">
+<h3 class="f1-m-2 cl3 tab01-title">
+Ứng Dụng Tiện Ích
+</h3>
+</div>
+<label class="badge badge-warning" style="margin-bottom: 5px;"><a href="https://gokisoft.com/api-fake--apifake--fakeapi--fake-api.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Fake API" target="_blank">
+Fake API
+</a></label>
+<label class="badge badge-warning" style="margin-bottom: 5px;"><a href="https://gokisoft.com/database-diagram.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Database Diagram" target="_blank">
+Database Diagram
+</a></label>
+<label class="badge badge-warning" style="margin-bottom: 5px;"><a href="https://gokisoft.com/coding-online.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Coding Online" target="_blank">
+Coding Online
+</a></label>
+<label class="badge badge-warning" style="margin-bottom: 5px;"><a href="https://gokisoft.com/json-editor.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="JSON Editor" target="_blank">
+JSON Editor
+</a></label>
+<label class="badge badge-warning" style="margin-bottom: 5px;"><a href="https://gokisoft.com/chuyen-doi-chu-hoa.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Chuyển Đổi Chữ Hoa - UpperCase" target="_blank">
+Chuyển Đổi Chữ Hoa - UpperCase
+</a></label>
+<label class="badge badge-warning" style="margin-bottom: 5px;"><a href="https://gokisoft.com/base-64.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="Base64" target="_blank">
+Base64
+</a></label>
+<label class="badge badge-warning" style="margin-bottom: 5px;"><a href="https://gokisoft.com/md5.html" class="size-w-3 f1-s-7 cl3 hov-cl10 trans-03" title="MD5" target="_blank">
+MD5
+</a></label>
+<br /><br />
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7242961778697092" data-ad-slot="3026237021"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+</div>
+<div class="container p-t-4 p-b-20">
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7242961778697092" data-ad-slot="3026237021"></ins>
+<script>
+			     (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+</div>
+</div>
+</section>
+
+<a href="https://gokisoft.com/admin/edit-update-post/new" title="Sửa" target="_self" class="float" style="bottom: 40px; background-color: #d0021b !important;">
+<i class="fa fa-plus my-float"></i>
+</a>
+
+<footer>
+<div class="bg2 p-t-40 p-b-25">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 p-b-20">
+<div class="size-h-3 flex-s-c">
+<a href="https://gokisoft.com">
+<img style="height: 65px !important;" class="max-s-full" src="https://gokisoft.com/uploads/2021/03/s-567-logo-web.jpg" alt="LOGO">
+</a>
+</div>
+<div class="f1-s-1 cl11 p-b-16">
+<p><font color="#aaaaaa">Blog chia sẻ kiến thức công nghệ, lập trình và việc làm IT.</font></p>
+</div>
+<p class="f1-s-1 cl11 p-b-16">
+Bạn có câu hỏi? Hãy email chúng tôi tại <a href="/cdn-cgi/l/email-protection#50373f3b39233f36247e333f3d10373d31393c7e333f3d" class="email"><span class="__cf_email__" data-cfemail="7d1a1216140e121b09531e12103d1a101c1411531e1210">[email&#160;protected]</span></a>
+</p>
+<div class="p-t-15">
+<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+<span class="fab fa-facebook-f"></span>
+</a>
+<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+<span class="fab fa-twitter"></span>
+</a>
+<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+<span class="fab fa-pinterest-p"></span>
+</a>
+<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+<span class="fab fa-vimeo-v"></span>
+</a>
+<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+<span class="fab fa-youtube"></span>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4 p-b-20">
+<div class="size-h-3 flex-s-c">
+<h5 class="f1-m-7 cl0" style="text-transform: uppercase;">
+Giới Thiệu
+</h5>
+</div>
+<ul>
+<li class="flex-wr-sb-s p-b-20">
+<a href="https://gokisoft.com/gioi-thieu.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+<img class="lazy" data-src="https://gokisoft.com/uploads/stores/49/2021/08/gioi-thieu-ve-cong-ty.jpeg" alt="IMG">
+</a>
+<div class="size-w-5">
+<h6 class="p-b-5">
+<a href="https://gokisoft.com/gioi-thieu.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+Giới Thiệu
+</a>
+</h6>
+</div>
+</li>
+<li class="flex-wr-sb-s p-b-20">
+<a href="https://gokisoft.com/chinh-sach--noi-quy.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+<img class="lazy" data-src="https://gokisoft.com/uploads/stores/49/2021/08/chinh-sach.jpeg" alt="IMG">
+</a>
+<div class="size-w-5">
+<h6 class="p-b-5">
+<a href="https://gokisoft.com/chinh-sach--noi-quy.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+Chính Sách & Nội Quy
+</a>
+</h6>
+</div>
+</li>
+<li class="flex-wr-sb-s p-b-20">
+<a href="https://gokisoft.com/lien-he" class="size-w-4 wrap-pic-w hov1 trans-03">
+<img class="lazy" data-src="https://gokisoft.com/uploads/stores/49/2021/08/lien-he-voi-chung-toi.png" alt="IMG">
+</a>
+<div class="size-w-5">
+<h6 class="p-b-5">
+<a href="https://gokisoft.com/lien-he" class="f1-s-5 cl11 hov-cl10 trans-03">
+Liên Hệ
+</a>
+</h6>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-sm-6 col-lg-4 p-b-20">
+<div class="size-h-3 flex-s-c">
+<h5 class="f1-m-7 cl0" style="text-transform: uppercase;">
+Bài viết mới nhất
+</h5>
+</div>
+<li class="flex-wr-sb-s p-b-20">
+<a href="https://gokisoft.com/video-tim-hieu-function-array-object-trong-js-khoa-hoc-lap-trinh-javascript-c2108g3.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+<img class="lazy" data-src="https://gokisoft.com/uploads/stores/49/2021/10/coding-html5-css3.jpg" alt="IMG">
+</a>
+<div class="size-w-5">
+<h6 class="p-b-5">
+<a href="https://gokisoft.com/video-tim-hieu-function-array-object-trong-js-khoa-hoc-lap-trinh-javascript-c2108g3.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+[Video] Tìm hiểu Function, Array, Object trong JS - Khóa học lập trình Javascript - C2108G3
+</a>
+</h6>
+<span class="f1-s-3 cl6">
+20-12-2021
+</span>
+</div>
+</li>
+<li class="flex-wr-sb-s p-b-20">
+<a href="https://gokisoft.com/share-code-giai-phuong-trinh-bac-2-bang-javascript-giai-phuong-trinh-bac-hai-bang-javascript-c2108g3.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+<img class="lazy" data-src="https://gokisoft.com/uploads/stores/49/2021/10/coding-html5-css3.jpg" alt="IMG">
+</a>
+<div class="size-w-5">
+<h6 class="p-b-5">
+<a href="https://gokisoft.com/share-code-giai-phuong-trinh-bac-2-bang-javascript-giai-phuong-trinh-bac-hai-bang-javascript-c2108g3.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+[Video] Giải phương trình bậc 2 bằng javascript - giải phương trình bậc hai bằng Javascript - C2108G3
+</a>
+</h6>
+<span class="f1-s-3 cl6">
+20-12-2021
+</span>
+</div>
+</li>
+<li class="flex-wr-sb-s p-b-20">
+<a href="https://gokisoft.com/bai-tap-sap-xep-mang-trong-javascript-khoa-hoc-lap-trinh-javascript.html" class="size-w-4 wrap-pic-w hov1 trans-03">
+<img class="lazy" data-src="https://gokisoft.com/uploads/stores/49/2021/10/coding-html5-css3.jpg" alt="IMG">
+</a>
+<div class="size-w-5">
+<h6 class="p-b-5">
+<a href="https://gokisoft.com/bai-tap-sap-xep-mang-trong-javascript-khoa-hoc-lap-trinh-javascript.html" class="f1-s-5 cl11 hov-cl10 trans-03">
+Bài tập - Sắp xếp mảng trong Javascript - Khóa học lập trình Javascript
+</a>
+</h6>
+<span class="f1-s-3 cl6">
+20-12-2021
+</span>
+</div>
+</li>
+</div>
+</div>
+</div>
+</div>
+<div class="bg11">
+<div class="container size-h-4 flex-c-c p-tb-15">
+<span class="f1-s-1 cl0 txt-center">
+<a href="#" class="f1-s-1 cl10 hov-link1">
+Copyright &copy; 2019 All rights reserved
+</span>
+</div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-146138928-1"></script>
+<script>
+					  window.dataLayer = window.dataLayer || [];
+					  function gtag(){dataLayer.push(arguments);}
+					  gtag('js', new Date());
+					  gtag('config', 'UA-146138928-1');
+					</script>
+<script type="text/javascript">
+  var utilItems = JSON.parse(`[{"title":"Fake API","link":"https:\/\/gokisoft.com\/api-fake--apifake--fakeapi--fake-api.html"},{"title":"Database Diagram","link":"https:\/\/gokisoft.com\/database-diagram.html"},{"title":"Coding Online","link":"https:\/\/gokisoft.com\/coding-online.html"},{"title":"JSON Editor","link":"https:\/\/gokisoft.com\/json-editor.html"},{"title":"Chuy\u1ec3n \u0110\u1ed5i Ch\u1eef Hoa - UpperCase","link":"https:\/\/gokisoft.com\/chuyen-doi-chu-hoa.html"},{"title":"Base64","link":"https:\/\/gokisoft.com\/base-64.html"},{"title":"MD5","link":"https:\/\/gokisoft.com\/md5.html"}]`);
+
+  function searchGoogle() {
+    var value = $('#s_tmp').val().toLowerCase().trim()
+    for(i=0;i<utilItems.length;i++) {
+      title = utilItems[i].title.toLowerCase().trim()
+      if(title.includes(value)) {
+        window.open(utilItems[i].link, '_blank')
+        // return false;
+        break;
+      }
+    }
+
+    jQuery('#q').val('site:gokisoft.com ' + jQuery('#s_tmp').val())
+
+    return true;
+  }
+</script>
+</footer>
+<div id="snackbar">Đã sao chép!!!</div>
+
+<div class="btn-back-to-top" id="myBtn">
+<span class="symbol-btn-back-to-top">
+<span class="fas fa-angle-up"></span>
+</span>
+</div>
+
+<script src="https://gokisoft.com/themes/gokisoft/vendor/jquery/jquery-3.2.1.min.js"></script>
+
+
+<script src="https://gokisoft.com/themes/gokisoft/vendor/bootstrap/js/popper.js"></script>
+<script src="https://gokisoft.com/themes/gokisoft/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+	function filterGroup(groupName) {
+		document.cookie = 'currentGroup='+groupName
+		location.reload()
+	}
+
+	$(function () {
+		$(".pagination").children("li").addClass("flex-c-c pagi-item hov-btn1 trans-03 m-all-7");
+		$(".pagination").children("li").children("a").css("color", "#808080");
+		$(".pagination").children("li").mouseover(function () {
+			$(this).children("a").css("color", "white");
+		}).mouseout(function() {
+			$(this).children("a").css("color", "#808080");
+		});;
+	});
+
+	function filterByTags(tagName) {
+		tagName = remove_unicode(tagName)
+		$('[name=tagFilter]').each(function() {
+			if($(this).attr('data').includes(tagName)) {
+				$(this).show()
+			} else {
+				$(this).hide()
+			}
+		})
+	}
+
+	function remove_unicode(str)
+	{
+	   str= str.toLowerCase();
+	   str= str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,"a");
+	   str= str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g,"e");
+	   str= str.replace(/ì|í|ị|ỉ|ĩ/g,"i");
+	   str= str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g,"o");
+	   str= str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g,"u");
+	   str= str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g,"y");
+	   str= str.replace(/đ/g,"d");
+	   // str= str.replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'| |\"|\&|\#|\[|\]|~|$|_/g,"-");
+
+	   // str= str.replace(/-+-/g,"-"); //thay thế 2- thành 1-
+	   // str= str.replace(/^\-+|\-+$/g,"");
+
+	   return str;
+	}
+</script>
+<script>
+	var isOpenLeft = false;
+
+	function openNav() {
+	  if(isOpenLeft) {
+	  	closeNav()
+	  	isOpenLeft = false
+	  	return
+	  }
+	  isOpenLeft = true
+	  document.getElementById("mySidenav").style.width = "420px";
+	  $('#menu_left_id').css('left', '435px')
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	  $('#menu_left_id').css('left', '15px')
+	}
+</script>
+<script type="text/javascript">
+    // var fullnameList = [];
+
+    // @ foreach($userList as $item)
+    //     fullnameList.push('{ { $ item->name } }')
+    // @ endforeach
+
+    // var photoList = [
+    //   'https://gokisoft.com/img/run.gif',
+    //   'https://gokisoft.com/img/smile.gif',
+    //   'https://gokisoft.com/img/yeah.gif'
+    // ];
+    // var maxIndex = fullnameList.length - 1;
+    // var currentIndex = 0;
+
+    // function showDialog() {
+    //     // Get the snackbar DIV
+    //     var x = document.getElementById("snackbar2");
+    //     if(currentIndex > maxIndex) {
+    //       currentIndex = 0;
+    //     }
+    //     $('#snackbar_img').attr('src', photoList[currentIndex % 3])
+    //     $('#snackbar_name').html(fullnameList[currentIndex])
+    //     // Add the "show" class to DIV
+    //     x.className = "show";
+
+    //     currentIndex++;
+
+    //     // After 3 seconds, remove the show class from DIV
+    //     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 8000);
+    // }
+
+    // if(fullnameList.length > 0) {
+    //     setInterval(function() {
+    //       showDialog();
+    //     }, 12000)
+    // }
+</script>
+
+<script type="text/javascript">
+  function copyDivToClipboard(id) {
+    // var range = document.getSelection().getRangeAt(0);
+    // range.selectNode(document.getElementById(id));
+    // window.getSelection().addRange(range);
+    // document.execCommand("copy")
+    var text = $("#"+id).text();
+
+    var dummy = document.createElement("textarea");
+    document.body.appendChild(dummy);
+    dummy.innerHTML = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar");
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+    </script>
+<script type="text/javascript">
+        $(function() {
+            $('img.lazy').each(function() {
+                $(this).attr('src', $(this).attr('data-src'));
+            })
+        })
+      /**document.addEventListener("DOMContentLoaded", function() {
+      var lazyloadImages = document.querySelectorAll("img.lazy");
+      var lazyloadThrottleTimeout;
+
+      function lazyload () {
+        if(lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function() {
+            var scrollTop = window.pageYOffset;
+            lazyloadImages.forEach(function(img) {
+                if(img.offsetTop < (window.innerHeight + scrollTop)) {
+                  img.src = img.dataset.src;
+                  if(img.dataset.alt != null && img.dataset.alt != '') {
+                    img.alt = img.dataset.alt;
+                  }
+
+                  img.classList.remove('lazy');
+                }
+            });
+            if(lazyloadImages.length == 0) {
+              document.removeEventListener("scroll", lazyload);
+              window.removeEventListener("resize", lazyload);
+              window.removeEventListener("orientationChange", lazyload);
+            }
+        }, 20);
+      }
+
+      // setTimeout(function() {
+      //   lazyload()
+      // }, 2000)
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    });*/
+
+    // $(function() {
+    //     setTimeout(function() {
+    //         $('.banner-header img').each(function() {
+    //             $(this).attr('src', $(this).attr('data-src'))
+    //         })
+    //     }, 3000)
+    // })
+  </script>
+</body>
+</html>
